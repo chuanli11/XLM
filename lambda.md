@@ -75,7 +75,7 @@ Memory Requirement
 | tokens_per_batch=1000 | 11GB  |
 | tokens_per_batch=2000 | 24GB |
 | tokens_per_batch=4000 | 24GB |
-| tokens_per_batch=8000 | |
+| tokens_per_batch=8000 | 48GB |
 
 Throughput (words/sec) 
 
@@ -84,5 +84,5 @@ Throughput (words/sec)
 | tokens_per_batch=500 | OOM | 1009.9 | 1212.38 | 1182.95 | 1349.98 | 1405.14 | 1425.27 | | 1427.12 |
 | tokens_per_batch=1000 | OOM | OOM | OOM | 1824.04 | 2025.35 | 2200.63 | 2183.65 | | 2071.28 |
 | tokens_per_batch=2000 | OOM | OOM | OOM | OOM | OOM | 3132.97 | 3075.95 | | 2829.28 |
-| tokens_per_batch=4000 | OOM | OOM | OOM | OOM | OOM | 3850.34 | 3725.16 | | 3559.68 |
-| tokens_per_batch=8000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM | | 3734.71 |
+| tokens_per_batch=4000 | OOM | OOM | OOM | OOM | OOM | 3850.34 | 3725.16 | 3739.56| 3559.68 |
+| tokens_per_batch=8000 | OOM | OOM | OOM | OOM | OOM | OOM | OOM | OOM | 3734.71 |
